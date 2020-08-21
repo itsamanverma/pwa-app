@@ -14,13 +14,13 @@ const App = () => {
           <Navbar.Brand href="/">Navbar</Navbar.Brand>
           <Nav className="mr-auto">
             <Nav.Link eventKey={1}>
-              <Link to="/">Home</Link>
+              <Link href="/" to="/">Home</Link>
             </Nav.Link>
             <Nav.Link eventKey={2}>
-              <Link to="users">Users</Link>
+              <Link href="users" to="users">Users</Link>
             </Nav.Link>
             <Nav.Link eventKey={3}>
-              <Link to="/about">About</Link>
+              <Link href="/about" to="/about">About</Link>
             </Nav.Link>
           </Nav>
         </Navbar>
